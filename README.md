@@ -10,7 +10,7 @@ _Cake_
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
 Site published at: https://linajja.github.io/Cake/
-Design: [Cake] https://cdn.discordapp.com/attachments/850245533838868480/850247442922340382/unknown.pngcoming-soon-wide.png
+Design: [Cake] https://cdn.discordapp.com/attachments/850245533838868480/850247442922340382/unknown.png
 
 ## Project features
 
