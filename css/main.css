@@ -3,25 +3,47 @@ root {
     --primary-color-light: #ff5345;
     --background-gradient: linear-gradient(0deg, #ff346b 100%, #ff5345 0%);
 }
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, #ff346b 100%, #ff5345 0%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
 .container {
     height: 100vh;
     background-position: center;
     background-size: cover;
-    background: linear-gradient(0deg, #ff346b 100%, #ff5345 0%);
+    
 }
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 30px;
     gap: 10px;
-    margin: 20px 40px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
 }
-.header > .logo {
-    margin-top: 20px;
+.main-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+
 }
-.header > .main-menu > a {
-    display: flex;
-    align-items: flex-end;
-    margin-top: 20px;
+a.active{
+    text-transform: uppercase;
+    border: 1px white;
+    text-decoration: underline;
+}
+.logo {
+    align-items: center;
+}
+a {
     color: white;
     text-decoration: none;
 }
