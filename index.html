@@ -33,7 +33,7 @@
             <div class="text">
                 <h1 class="name">Domnic online cake ordeing</h1>
                 <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, necessitatibus dicta. Repellat veniam maxime ducimus perspiciatis blanditiis delectus dignissimos quisquam, necessitatibus aliquam ipsam beatae eum ipsum voluptas fugiat, nulla voluptatum.</p>
-                <a href="#" class="order btn">Order Now</a>
+                <a id="1" href="#" class="order btn">Order Now</a>
             </div>
             <div class="img">
                 <img src="./img/cake.png" alt="Cake">
@@ -46,6 +46,13 @@
             <a href="#" target="_blank" rel="nofollow" class="fa fa-instagram icon"></a>
         </div>
     </div>
+    <script>
+        let btn = document.getElementById("1");
+        btn.addEventListener("click", function () {
+            let spalv = document.querySelector("a");
+            spalv.style.background = "green";
+        });
+    </script>
 </body>
 
 </html>
